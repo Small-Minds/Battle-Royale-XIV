@@ -88,13 +88,13 @@ a {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 950px) {
   .title {
     font-size: 8rem;
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1200px) {
   .title {
     font-size: 10rem;
   }
