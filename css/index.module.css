@@ -1,0 +1,17 @@
+.main {
+  font-family: "Archivo";
+}
+
+.battlefield {
+  font-family: "Bebas Neue";
+  letter-spacing: 1px;
+}
+
+.nobottom {
+  margin-bottom: 0px;
+}
+
+.marker {
+  font-family: "Permanent Marker";
+  color: purple;
+}
