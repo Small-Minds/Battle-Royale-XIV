@@ -14,4 +14,35 @@
 .marker {
   font-family: "Permanent Marker";
   color: purple;
+  animation: colorful;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+.timespan {
+  color: purple;
+  animation: colorful;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorful {
+  0% {
+    color: rgb(148, 17, 148);
+  }
+  15% {
+    color: rgb(228, 0, 209);
+  }
+  30% {
+    color: rgb(255, 166, 0);
+  }
+  60% {
+    color: rgb(164, 182, 0);
+  }
+  80% {
+    color: rgb(0, 118, 228);
+  }
+  90% {
+    color: rgb(158, 0, 0);
+  }
 }

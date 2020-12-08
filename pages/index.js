@@ -21,7 +21,11 @@ export default function Home() {
         </h1>
 
         <p className="description" style={{ marginTop: "2px" }}>
-          <small>Ottawa's Largest 24-hour Gaming Competition</small>
+          <small>
+            Ottawa's Largest{" "}
+            <span className={style.timespan}>{" 24-hour "}</span> Gaming
+            Competition
+          </small>
         </p>
 
         <div className="grid">
