@@ -1,6 +1,6 @@
 html,
 body {
-  color: #EEE;
+  color: #eee;
   background: #111;
   padding: 0;
   margin: 0;
@@ -138,6 +138,9 @@ code {
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
+  animation: colorful;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
 }
 
 .card h3 {
@@ -159,5 +162,24 @@ code {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+@keyframes colorful {
+  0% {
+    color: rgb(228, 0, 209);
+    border-color: rgb(228, 0, 209);
+  }
+  15% {
+    color: rgb(255, 166, 0);
+    border-color: rgb(255, 166, 0);
+  }
+  80% {
+    color: rgb(0, 118, 228);
+    border-color: rgb(0, 118, 228);
+  }
+  90% {
+    color: rgb(158, 0, 0);
+    border-color: rgb(158, 0, 0);
   }
 }
