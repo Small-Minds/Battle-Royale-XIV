@@ -16,15 +16,15 @@ export default function Home() {
 
       <main className={style.main}>
         <h1 className="title">
-          <span className={style.battlefield}>Battle Royale</span>{" "}
+          <span className={style.battlefield}>Battle&nbsp;Royale</span>{" "}
           <span className={style.marker}>XIV</span>
         </h1>
 
         <p className="description" style={{ marginTop: "2px" }}>
           <small>
-            Ottawa's Largest{" "}
-            <span className={style.timespan}>{" 24-hour "}</span> Gaming
-            Competition
+            <span>Ottawa's&nbsp;Largest</span>
+            <span className={style.timespan}>{" 24-hour "}</span>
+            <span>Gaming&nbsp;Competition</span>
           </small>
         </p>
 

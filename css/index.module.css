@@ -4,7 +4,7 @@
 
 .battlefield {
   font-family: "Bebas Neue";
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 .nobottom {
@@ -17,6 +17,12 @@
   animation: colorful;
   animation-duration: 30s;
   animation-iteration-count: infinite;
+}
+
+@media (max-width: 500px) {
+  .marker {
+    font-size: 6rem;
+  }
 }
 
 .timespan {
